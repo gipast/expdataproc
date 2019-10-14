@@ -1,0 +1,96 @@
+:notitle:
+:author: Чикичев Тимур Вадимович
+:email: timur7002007@gmail.com
+:source-highlighter: pygments
+// :doctype: book
+// :reproducible:
+:pygments-style: monokai
+:stem: latexmath
+//asciimath
+//latexmath
+:blank: pass:[ +]
+:toc:
+//macro
+:toc-title: Содержание отчета
+// :toc-start: 3
+:imagesdir-old: {imagesdir}
+// include::titul.adoc[]
+
+<<<
+
+toc::[]
+
+// include::program.py[]
+
+.CAPTION xxxxxxxxxxxxxxx
+[source,py]
+----
+
+----
+
+
+// # include::expdataproc/lab1/program.py[]
+
+// [float]
+// The second day
+// ~~~~~~~~~~~~~~
+// Floating titles do not appear in a document’s table of contents
+
+// [verse, Author, source]
+// To see a world in a grain of sand,
+// And a heaven in a wild flower,
+// Hold infinity in the palm of your hand,
+// And eternity in an hour.
+
+// [TIP]
+// This is an example TIP.
+//
+// [NOTE]
+// This is an example note.
+//
+// [IMPORTANT]
+// This is an example IMPORTANT.
+//
+// [WARNING]
+// This is an example WARNING.
+
+// [caption="Пример1: "]
+// .Anexamplewithacustomcaption
+// ======================================================
+// Qui
+// ======================================================
+
+// [abstract]
+// --
+// Header
+// --
+
+// [horizontal]
+// In::
+// Lorem::  Fusce euismod commodo velit.
+
+// :lab_dir: ../z3
+// include::./ex_12_04.c[]
+
+// :imagesdir: {lab_dir}/img
+
+// :counter: image-counter : 2
+// :counter: list-counter : 0
+// :counter: image-number : 0
+
+// .Список:
+// - <<list_diff2, Описание>>
+// - <<list_diff4, Описание>>
+
+// [[list_diff2]]
+// [caption="Рисунок {counter:image-counter}: "]
+// image::Figure.png["image_1",title="зависимость"]
+
+// stem:[
+// \int_{-1}^{1}f(x)dx
+// \approx
+// \frac{5}{9}f(-\sqrt{\frac{3}{5}}) + \frac{8}{9}f(0) + \frac{5}{9}f(\sqrt{\frac{3}{5}})]
+//
+// stem:[\int_{a}^{b}f(x)dx \approx \sum_{i=1}^{n}c_{i}f(x_{i})]
+//
+// stem:[h \in [10^{-16}; 1] ]

@@ -1,0 +1,27 @@
+// :notitle:
+= REport 
+:author: TEAM 1
+:email: xxx
+:source-highlighter: pygments
+// :doctype: book
+// :reproducible:
+:pygments-style: monokai
+:stem: latexmath
+// :blank: pass:[ +]
+:toc: macro
+:toc-title: Содержание отчета
+// :toc-start: 3
+:imagesdir-old: {imagesdir}
+
+<<<
+
+toc::[]
+
+
+:sourcedir: .
+
+.CAPTION xxxxxxxxxxxxxxx
+[source,py]
+----
+include::program.py[]
+----

@@ -1,0 +1,21 @@
+Sunspot number is daily measured by observatories over the globe and is determined as
+R = k(n + 10g), here n – number of observed sunspots, g – number of observed sunspot
+groups, k – coefficient of a telescope. Solar radio flux at 10.7 cm is a measurement of radio
+emission at a wavelength of 10.7 cm (2800 MHz) from all sources present on the solar disk
+(sunspots, solar flares, solar proton events, white light faculae fields).
+This Assignment is performed in the class by students as in teams of 2-3 and the team
+will submit one document reporting about the performance till the given deadline. Within your
+group, you may discuss all issues openly, and discuss and debate until you reach a consensus.
+Here is the recommended procedure:
+1. The code (Matlab/Python) should be commented.
+It should include:
+- Title of the Assignment, for example
+%Relationship between solar radio flux F10.7 and sunspot number
+- The names of a team, indication of Skoltech, and date, for example,
+%Tatiana Podladchikova, Skoltech, 2019
+Main procedures also should be commented, for example
+%13-month running mean
+...here comes the code
+2. Download monthly mean sunspot number and solar radio flux F10.7cm measurements from
+Canvas. Every team will have different files to work with. You can download either Matlab
+or txt data (for Python):
